@@ -27,7 +27,6 @@ FILES
 ```
 
 ## check boot/shutdown log
-[[Linux] 查詢 Linux 的 shutdown/reboot 記錄](https://ephrain.net/linux-%E6%9F%A5%E8%A9%A2-linux-%E7%9A%84-shutdownreboot-%E8%A8%98%E9%8C%84/)
 ```sh
 last reboot      # check boot log
 last -x shutdown # check shutdown log
@@ -43,7 +42,6 @@ sudo -i # ~/.bashrc is ignored
 ```
 
 ## sudo, given password
-[sudo 自動帶入 密碼](https://cuteparrot.pixnet.net/blog/post/199347198)
 ```sh
 echo '<password>' | sudo -S <command>
 ```
@@ -576,7 +574,6 @@ netstat -tulpn #--tcp|-t, --udp|-u, -l, --listening
 ```
 
 ## check the status of a machine's specific port
-[測試特定的 TCP 連接埠（port）是否有開啟](https://blog.gtwang.org/linux/linux-utility-netcat-examples/)
 ```sh
 nc <ip-address> <port-number> -v
 ```
@@ -1840,7 +1837,6 @@ cut -d '<delimiter>' -f <fields> <filename>
 ```
 
 ## use curl to test REST API
-[使用curl指令測試REST服務](http://blog.kent-chiu.com/2013/08/14/testing-rest-with-curl-command.html)
 ```sh
 curl -X POST "<ip-address>:<port>/<subpage>" -d "<param1>=<value1>"
 ```
@@ -1907,7 +1903,6 @@ apt-get install uni2ascii
 ```
 
 ## redirect the error message of a command to a file
-[Shell重定向 ＆>file、2>&1、1>&2 、/dev/null的区别](https://blog.csdn.net/u011630575/article/details/52151995)
 ```sh
 <some-command> > <filename.txt> 2>&1
 ```
